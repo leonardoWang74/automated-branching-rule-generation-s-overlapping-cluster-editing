@@ -2,7 +2,7 @@
 is an implementation based on the framework by [Gramm Guo Hueffner Niedermeier 2004 - Automated generation of search tree algorithms for hard graph modiﬁcation problems], that can calculate optimal branching rules for s-Overlapping Cluster Editing and Cluster Editing.
 
 ### How to run
-Requirements: installed `make, python3`, `g++`, `gcc, wget` commands, bash commands like `cat`, `cd`, and `mkdir`, 8 GB free disk space, and 6 GB memory (RAM) for $n \leq 6$ per worker.
+Requirements: installed `make`, `g++`, `gcc, wget` commands, bash commands like `cat`, `cd`, and `mkdir`, 8 GB free disk space, and 8 GB memory (RAM) for $n \leq 6$ per worker.
 
 Notable Makefile targets:
 - Run `make clusterEditing` to run the branching rule generation algorithm for $s=1$ (cluster editing) on $n \in [3,6]$. The results are saved in files `result-s1-n*.log`.
