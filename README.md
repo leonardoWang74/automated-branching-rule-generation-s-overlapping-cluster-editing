@@ -1,3 +1,7 @@
+# Automated Branching Rule Generation for s-Overlapping Cluster Editing
+is an implementation based on the framework by [Gramm Guo Hueffner Niedermeier 2004 - Automated generation of search tree algorithms for hard graph modiﬁcation problems], that can calculate optimal branching rules for s-Overlapping Cluster Editing and Cluster Editing.
+
+### How to run
 Requirements: installed `make, python3`, `g++`, `gcc, wget` commands, bash commansd like `cat`, `cd`, and `mkdir`, 8 GB free disk space, and 10 GB memory (RAM) for $n \leq 6$.
 
 Notable Makefile targets:
