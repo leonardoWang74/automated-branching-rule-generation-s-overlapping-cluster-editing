@@ -1,0 +1,289 @@
+nauty-geng -cq 6 | /usr/bin/time -v ./out/branchingAutomated -p 4 -s 1 -u -o 99
+
+
+branchingAutomated starting at: Mon Nov  2 10:47:36 2026
+
+Using proposition algorithm FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS.
+
+branchingAutomated.cpp:1025 worker=0 starting on graph 1: E?Bw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 2: E?bo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 3: E?bw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 4: E?qo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 4: E?qo br=2.17768 time=0.071393s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 5: E?ow algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 1: E?Bw br=2.02274 time=0.096472s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 6: E?ro algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 2: E?bo br=2.02274 time=0.101709s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 7: E?qw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 3: E?bw br=1.9616 time=0.102773s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 8: E?rw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 5: E?ow br=2.02274 time=0.056222s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 9: E?zO algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 7: E?qw br=2.0507 time=0.065163s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 10: E?zo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 9: E?zO br=2.00474 time=0.116695s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 11: E?zW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 6: E?ro br=1.95971 time=0.187939s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 12: E?zw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 8: E?rw br=2.01578 time=0.226196s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 13: E?~o algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 11: E?zW br=1.96193 time=0.274039s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 14: E?~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 10: E?zo br=1.89419 time=0.365324s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 15: ECR_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 15: ECR_ br=2.09438 time=0.060622s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 16: ECRo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 16: ECRo br=1.95971 time=0.088507s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 17: ECRw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 12: E?zw br=1.96907 time=0.507762s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 18: ECr_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 13: E?~o br=1.83991 time=0.561009s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 19: ECpo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 17: ECRw br=1.90141 time=0.233133s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 20: ECqg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 18: ECr_ br=1.95971 time=0.192694s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 21: ECro algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 20: ECqg br=2.027 time=0.174015s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 22: ECrg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 19: ECpo br=2.01087 time=0.283774s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 23: ECrw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 21: ECro br=1.93703 time=0.231695s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 24: ECZ? algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 24: ECZ? br=2.3112 time=0.04446s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 25: ECZ_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 22: ECrg br=1.93573 time=0.216508s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 26: ECZO algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 26: ECZO br=2.02064 time=0.038329s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 27: ECZG algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 25: ECZ_ br=2.02064 time=0.111989s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 28: ECYW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 28: ECYW br=1.95971 time=0.05641s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 29: ECZo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 27: ECZG br=2.08891 time=0.091147s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 30: ECZg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 30: ECZg br=2.03798 time=0.116451s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 31: ECZW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 29: ECZo br=1.90884 time=0.129607s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 32: ECZw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 31: ECZW br=1.91946 time=0.109567s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 33: ECfo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 23: ECrw br=1.91855 time=0.589004s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 34: ECfw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 32: ECZw br=1.89835 time=0.206672s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 35: ECxo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 33: ECfo br=1.91476 time=0.200221s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 36: ECzo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 34: ECfw br=1.86386 time=0.172571s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 37: ECzg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 35: ECxo br=1.93554 time=0.551699s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 38: ECzW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 37: ECzg br=1.91023 time=0.491267s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 39: ECxw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 38: ECzW br=1.88709 time=0.472252s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 40: ECzw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 36: ECzo br=1.84466 time=1.32428s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 41: ECvo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 41: ECvo br=1.8748 time=1.02365s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 42: ECuw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 39: ECxw br=1.90114 time=1.94368s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 43: ECvw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 42: ECuw br=1.89391 time=0.190866s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 44: EC~o algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 43: ECvw br=1.8535 time=0.581575s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 45: EC~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 14: E?~w br=1.90142 time=12.9864s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 46: EEr_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 46: EEr_ br=1.96799 time=0.544592s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 47: EEro algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 47: EEro br=1.89874 time=0.900211s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 48: EErw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 45: EC~w br=1.82143 time=10.4479s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 49: EEh_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 48: EErw br=1.8896 time=0.691949s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 50: EEj_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 49: EEh_ br=2.10434 time=0.280785s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 51: EEio algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 51: EEio br=1.92854 time=0.32974s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 52: EEho algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 50: EEj_ br=1.90884 time=0.404892s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 53: EEiW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 53: EEiW br=1.99572 time=0.306797s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 54: EEhW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 54: EEhW br=1.94881 time=0.274581s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 55: EEjo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 52: EEho br=1.9683 time=0.687713s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 56: EEjW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 44: EC~o br=1.80498 time=12.6199s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 57: EEhw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 56: EEjW br=1.91133 time=0.497218s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 58: EEjw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 57: EEhw br=1.85032 time=0.560427s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 59: EEz_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 55: EEjo br=1.89679 time=1.23267s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 60: EEzO algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 60: EEzO br=1.88719 time=0.437737s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 61: EEzo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 58: EEjw br=1.86853 time=2.87919s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 62: EEzg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 61: EEzo br=1.83856 time=4.61886s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 63: EEzw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 59: EEz_ br=1.84466 time=5.81567s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 64: EEvo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 64: EEvo br=1.85575 time=1.24481s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 65: EEuw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 65: EEuw br=1.87759 time=9.81535s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 66: EEvw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 66: EEvw br=1.85174 time=0.58254s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 67: EEno algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 67: EEno br=1.83609 time=5.26738s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 68: EElw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 40: ECzw br=1.87122 time=38.1177s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 69: EEnw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 68: EElw br=1.8263 time=1.09151s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 70: EE~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 62: EEzg br=1.85927 time=22.5094s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 71: EFz_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 71: EFz_ br=1.82922 time=13.8217s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 72: EFzo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 63: EEzw br=1.8482 time=75.6584s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 73: EFzW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=1 graph 70: EE~w br=1.80784 time=81.1514s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=1 starting on graph 74: EFzw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 73: EFzW br=1.80449 time=41.7311s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 75: EF~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 69: EEnw br=1.84834 time=350.075s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 76: EQj_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 76: EQj_ br=1.96753 time=0.249134s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 77: EQjO algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 77: EQjO br=1.90884 time=0.112409s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 78: EQjo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 78: EQjo br=1.86182 time=0.376667s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 79: EQjg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 79: EQjg br=1.8562 time=0.170053s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 80: EQjw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 80: EQjw br=1.80062 time=0.730439s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 81: EQzO algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 81: EQzO br=1.84466 time=0.358689s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 82: EQzo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 82: EQzo br=1.81984 time=2.95584s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 83: EQzg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 83: EQzg br=1.8216 time=0.444153s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 84: EQzW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 84: EQzW br=1.83865 time=5.03289s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 85: EQyw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 85: EQyw br=1.81984 time=0.743278s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 86: EQzw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 86: EQzw br=1.79054 time=45.2387s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 87: EQ~o algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 72: EFzo br=1.80763 time=449.414s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 88: EQ~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 87: EQ~o br=1.77835 time=266.789s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 89: EUZ_ algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 89: EUZ_ br=1.89001 time=6.56808s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 90: EUZO algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 90: EUZO br=1.93575 time=1.2935s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 91: EUZo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 91: EUZo br=1.85836 time=11.2503s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 92: EUZw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 92: EUZw br=1.83214 time=106.524s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 93: EUxo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 93: EUxo br=1.83046 time=4.2331s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 94: EUzo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 94: EUzo br=1.80168 time=24.6054s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 95: EUzW algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 95: EUzW br=1.80268 time=60.5099s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 96: EUzw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 88: EQ~w br=1.76999 time=760.191s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 97: EU~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 75: EF~w br=1.79489 time=1280.19s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 98: ETzo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 98: ETzo br=1.79357 time=141.142s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 99: ETzg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 99: ETzg br=1.82071 time=51.0478s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 100: ETzw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 100: ETzw br=1.77165 time=34.6035s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 101: ETno algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 101: ETno br=1.80227 time=0.832356s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 102: ETnw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 102: ETnw br=1.75692 time=0.515126s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 103: ET~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 103: ET~w br=1.73027 time=3.44074s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 104: EV~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 104: EV~w br=1.73027 time=144.464s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 105: E]zo algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 96: EUzw br=1.77729 time=918.678s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 106: E]zg algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 106: E]zg br=1.76709 time=2.23826s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 107: E]yw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=3 graph 105: E]zo br=1.76487 time=74.471s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=3 starting on graph 108: E]zw algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 97: EU~w br=1.76087 time=864.593s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 109: E]~o algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=0 graph 107: E]yw br=1.75719 time=415.083s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=0 starting on graph 110: E]~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 109: E]~o br=1.74892 time=686.3s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 111: E^~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1037 worker=2 graph 111: E^~w br=1.75692 time=6.2946s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:1025 worker=2 starting on graph 112: E~~w algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+branchingAutomated.cpp:861 graph 112: E~~w trvial instance (no forbidden subgraph)
+branchingAutomated.cpp:1037 worker=2 graph 112: E~~w br=1 time=0.061224s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+worker id=2 finished phase 1 in 2823.26s. branchingNumberWorstCase=2.10434 sending 22 saves to main
+branchingAutomated.cpp:1037 worker=3 graph 108: E]zw br=1.75149 time=1761.47s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+worker id=3 finished phase 1 in 3632.49s. branchingNumberWorstCase=2.17768 sending 26 saves to main
+branchingAutomated.cpp:1037 worker=0 graph 110: E]~w br=1.75213 time=2216.64s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+worker id=0 finished phase 1 in 4481.81s. branchingNumberWorstCase=2.3112 sending 37 saves to main
+branchingAutomated.cpp:1037 worker=1 graph 74: EFzw br=1.80937 time=7373.32s algorithm=FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS
+worker id=1 finished phase 1 in 7495.87s. branchingNumberWorstCase=2.09438 sending 26 saves to main
+
+Phase 1 finished in 7495.87s. Received 111 saves (1 trivial graphs without forbidden subgraph).
+
+Phase 2 round 1: 111 candidates above the largest optimal br=0, running the optimal algorithm on 4 graphs
+branchingAutomated.cpp:1025 worker=1 starting on graph 4: E?qo algorithm=GRAMM_ET_AL
+branchingAutomated.cpp:1025 worker=0 starting on graph 24: ECZ? algorithm=GRAMM_ET_AL
+branchingAutomated.cpp:1025 worker=2 starting on graph 49: EEh_ algorithm=GRAMM_ET_AL
+branchingAutomated.cpp:1025 worker=3 starting on graph 15: ECR_ algorithm=GRAMM_ET_AL
+branchingAutomated.cpp:1037 worker=3 graph 15: ECR_ br=2.09438 time=284.313s algorithm=GRAMM_ET_AL
+branchingAutomated.cpp:1037 worker=1 graph 4: E?qo br=2.09438 time=288.065s algorithm=GRAMM_ET_AL
+branchingAutomated.cpp:1037 worker=0 graph 24: ECZ? br=2.15838 time=291.863s algorithm=GRAMM_ET_AL
+        graph 24: ECZ? br=2.3112 (FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS) -> optimal br=2.15838 time=291.863s
+        graph 4: E?qo br=2.17768 (FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS) -> optimal br=2.09438 time=288.065s
+branchingAutomated.cpp:1037 worker=2 graph 49: EEh_ br=2.10434 time=306.755s algorithm=GRAMM_ET_AL
+        graph 49: EEh_ br=2.10434 (FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS) -> optimal br=2.10434 time=306.755s
+        graph 15: ECR_ br=2.09438 (FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS) -> optimal br=2.09438 time=284.313s
+worker id=0 stopping after 7802.63s.
+worker id=2 stopping after 7802.63s.
+worker id=1 stopping after 7802.63s.
+worker id=3 stopping after 7802.63s.
+
+branchingAutomated finished.
+        Real time: 7830.9s (phase 1: 7495.87s, phase 2: 306.756s, 1 rounds, 4 optimal runs, 2 optimal IMPROVED runs)
+        Total aggregated worker time: 19604.4s
+        Graphs: 112 (111 non-trivial)
+                GRAMM_ET_AL: 4
+                FORBIDDEN_SUBGRAPH_SINGLE_GREEDY_ALL_PAIRS: 107
+        Worst branching number=2.1583758732377634 (graph 24: ECZ?, GRAMM_ET_AL)
+        Average branching number=1.88552269416814 (over the 111 non-trivial graphs)
+
+        Command being timed: "./out/branchingAutomated -p 4 -s 1 -u -o 99"
+        User time (seconds): 19527.98
+        System time (seconds): 100.87
+        Percent of CPU this job got: 250%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 2:10:30
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3694296
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 3681738
+        Voluntary context switches: 1688
+        Involuntary context switches: 657943
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0

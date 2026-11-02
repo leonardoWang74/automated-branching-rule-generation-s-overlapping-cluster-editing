@@ -1,0 +1,7 @@
+Requirements: installed `make, python3`, `g++`, `gcc, wget` commands, bash commansd like `cat`, `cd`, and `mkdir`, 8 GB free disk space, and 10 GB memory (RAM) for $n \leq 6$.
+
+Notable Makefile targets:
+- Run `make clusterEditing` to run the branching rule generation algorithm for $s=1$ (cluster editing) on $n \in [3,6]$. The results are saved in files `result-s1-n*.log`.
+- Run `make run` to run the branching rule generation algorithm for $s=2$ (cluster editing) on $n \in [5,6]$. The results are saved in files `result-s2-n*.log`.
+
+The program (after compiling with `make branchingAutomated-compile`) can also be run directly with `./nauty2_9_3/geng -cq 5 | /usr/bin/time -v ./out/branchingAutomated -p 1 -s 1 -u > result-s1-n5.log` where `p` is the number of processes, `s` is $s$, and `-u` turns on the greedy scheme.
